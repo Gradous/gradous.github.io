@@ -1,0 +1,9 @@
+/* padding top for navbar */
+body {
+	padding-top: 75px;
+}
+
+.quote {
+	font-family: Georgia;
+	color: Gray;
+}

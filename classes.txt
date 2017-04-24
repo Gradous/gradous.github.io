@@ -1,0 +1,171 @@
+Summer 2013
+==================
+15-213/15-513 Introduction to Computer Systems
+Prof. Greg Kesden
+Test difficulty - 9/10
+HW difficulty - 8/10
+Lecture enjoyability - 6.5/10
+Professor rating - 7/10
+Amount learned - 10/10
+
+Learned a ton of C and system-level concepts as a whole. Since it was a summer
+class, I spent probably about 20-35 hours a week combined for both homework
+and watching lectures. When there was a test I might have spent up to 40 hours
+the week before studying and watching lectures. Overall, despite the hard work,
+it was a great class and I learned a lot.
+
+Fall 2013
+==================
+14-740 Fundamentals of Telecommunications
+Dr. Bill Nace
+Test Difficulty - 8.5/10
+HW difficulty - 4/10
+Lecture enjoyability - 8/10
+Professor rating - 7/10
+Amount learned - 8/10
+
+I hadn't ever taken a networking class before, so this was a great introduction.
+Nace is a friendly guy, and his class was pretty easy to pay attention 
+to. If you saw him present at the open house, he lectures pretty much the same
+way. His homeworks were easy, but practical, and I enjoyed doing them. His
+tests, however, were waaaaay different than the rest of the class. They asked
+extremely specific (answer was on 1 slide only) questions, and there was no way
+to predict what all would show up on the test since all previous material was
+possible. It was fair though, I just didn't know how to study for it. I still
+recommend it.
+
+18-730 Introduction to Computer Security
+Dr. Virgil Gligor
+Test Difficulty - 9/10
+HW Difficulty - 7/10
+Lecture enjoyability - 4/10
+Professor rating - 5.5/10
+Amount learned - 7/10 and rising
+
+I don't know if you'll have to take this specific class, because I think the
+INI changed the requirement, but in essence you'll get the same material just
+with a different professor (Dr. Nicolas Christin). The material is very
+abstract, but the reason I said that my learned amount is "still rising" is
+because the material shows up in almost every class and it makes more sense.
+The tests were very difficult for me, and I had to study for a long time. I
+think that's mostly due to the material. Overall, this class was the most work
+for me in the fall.
+
+14-761 Applied Information Assurance (AIA)
+Chris May/Dennis Allen
+Test Difficulty - 2/10
+HW Difficulty - 3/10
+Lecture enjoyability - 10/10
+Professor ratings - 10/10, 10/10
+Amount learned - 8/10
+
+This was my favorite class in the fall. Lots of "best practices" for security,
+and hardening servers was a fairly regular assignment or in-class deal. There
+were some fantastic assignments, and we even got to have the instructors break
+into our hardened servers and monitor how they did it (they intentionally 
+allowed for the machines to not be fully up to date). Nothing was incredibly
+difficult, but it was all very fun. I always looked forward to this class. If
+you plan to take the forensics track, you'll take this course, but even if you
+don't, it's still a good course to take. Highly recommended for sure.
+
+
+Spring 2013
+==================
+18-731 Network Security
+Dr. Nicolas Christin
+Test Difficulty - 7.5/10
+HW Difficulty - 6/10
+Lecture Enjoyability - 9/10
+Professor rating - 10/10
+Amount learned - 9/10
+
+I think this has been my favorite class overall at CMU. Lots of very excellent
+material was covered, and the homeworks were practical and enjoyable. Christin
+is a fantastic professor as well, very easy to understand and his slides are not
+hard to interpret. There was a class project for the semester, and I showed off
+some of my progress to someone at the SEI which is what I think landed me a
+summer internship with the ETC at SEI. Really though, it's not an easy class,
+but it's a great class. Most people would rather take SSS, but this is easily
+as comparable for learning material.
+
+14-822 Host-based Forensics
+Jeff Mattson
+Test Difficulty - 5/10
+HW Difficulty - 4/10
+Lecture enjoyability - 10/10
+Professor rating 10/10
+Amount learned - 7/10
+
+This is the second class in the forensics track, and it barely loses out to AIA
+in terms of enjoyment, though that may be partly due to the fact that AIA covered
+a very broad array of topics. The material in this class mainly pertains to
+disk image analysis. He will tell you that the course is heavy early and lighter
+later in the semester; this is 100% accurate. The beginning of the semester covers
+very low level stuff, so you'll be reading a lot of hex to figure out information.
+However, once you get a little higher up, it becomes so much more enjoyable. Every
+assignment or test is like solving a new puzzle. It never was boring for me, but
+that may be because I am interested in forensics. Still, even if you don't plan
+to do the forensics track, it's a great class.
+
+14-786 Information Security Risk Analysis
+Rich Caralli, James Stevens
+Test Difficulty - 5/10
+HW Difficulty - ?/10
+Lecture enjoyability - 4/10
+Professor ratings - 6/10, 6/10
+Amount learned - 4/10
+
+This is the first Heinz mini you'll have to take. It's... different. At the time
+when I took the class, I was not enjoying it. However, I will say that it does
+a half-decent job of covering one aspect of security policy (risk planning).
+The biggest challenge of the course is figuring out how to properly interpret
+the questions of the HW and tests. They're not really too hard, but you have
+to not think too much or you'll actually go further than they want you to when
+answering. The HW difficulty is a "?" because they often would make mistakes
+when creating the quizzes on Blackboard, and you wouldn't know which questions
+were wrong until the next class. Generally though, it's an OK class; I had some
+conversation about information security risk in a couple of interviews so it's
+not useless.
+
+14-788 Information Security Policy Management
+Dr. Rahul Telang
+Test Difficulty - 5/10
+HW Difficulty - 2/10
+Lecture enjoyability - 2/10
+Professor rating - 1/10
+Amount learned - 1/10
+
+By far, this has been my least favorite course at CMU for a wide variety of reasons.
+This isn't a "I'm doing poorly in this class so I hate it" summary, but I think
+there are some issues that need to be addressed for this class to be better. Mainly,
+don't expect your technical knowledge to make any difference in this class. In fact,
+he often says to "not think about the technical standpoint" when talking in class.
+You are very welcome to just throw random statements out with no regards to accuracy
+from both a technical or a policy view. This is the reason the home page of this site
+is a "buzzword generator." This class doesn't even attempt to incorporate any actual
+security policy into discussion, not even a little. The best way to describe this
+course is to take "security" and "management" out of the course title and just
+call it "Information Policy." You'll be required to take this class, so you will
+most likely need to learn patience to deal with it. For the record, I had generally 
+good grades in here so this opinion is mostly based on content being delivered.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Disclaimer:
+The views and opinions expressed on this page are my own, and do not necessarily
+reflect the views of CMU, INI faculty and professors, or other INI students.
