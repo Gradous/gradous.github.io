@@ -21,12 +21,22 @@
     <h1 id="cynergy">CYNERGY</h1>
   </div>
   <div class="container-fluid"> 
-    <input class=".btn-danger" value="TURN ON THE LIGHTS"/>
+    <div class=".btn-danger" value="TURN ON THE LIGHTS" onmousedown="changeColor()" onmouseup="changeOrig()"/>
   </div>
   <audio id=spin>
     Get a browser that has HTML 5!
   </audio>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
   <script src="assets/js/bootstrap.min.js"></script>
+  <script type="text/javascript>
+    function changeColor() {
+      $('body').style.background-color = white
+      $('cynergy').style.font-color = black
+    }
+    function changeOrig() {
+      $('body').style.background-color = black
+      $('cynergy').style.font-color = white
+    }
+  </script>
 </body>
 </html>
