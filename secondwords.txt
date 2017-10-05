@@ -98,3 +98,4 @@ unicorn
 wizard
 Axis of Evil
 trebuchet
+synergy
