@@ -2,6 +2,8 @@ var superflag = false;
 var ar1 = [];
 var ar2 = [];
 
+// Mobile: need approval to play audio
+var CONTEXT = window.AudioContext || window.webkitAudioContext;
 // Try to avoid javascript's crappy randomness
 var recently_used = [];
 // 20 first words, 20 second words
@@ -16,6 +18,10 @@ onload_f = function() {
 	document.getElementById('titlebuzz').addEventListener('touchstart', superwords_start, false);
 	document.getElementById('titlebuzz').addEventListener('touchend', superwords_end, false);
 	document.getElementById('policyimage').style.height = 0;
+	if (CONTEXT == null)
+		document.getElementById('titlebuzz').addEventListener('click', function () {
+			CONTEXT = new AudioContext();
+		});
 
 	var xmlhttp = new XMLHttpRequest()
 		xmlhttp.onload = function() {
