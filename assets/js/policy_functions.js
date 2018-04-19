@@ -17,8 +17,6 @@ onload_f = function() {
 	document.getElementById('titlebuzz').addEventListener('touchend', superwords_end, false);
 	document.getElementById('policyimage').style.height = 0;
 
-	genwords();
-
 	var xmlhttp = new XMLHttpRequest()
 		xmlhttp.onload = function() {
 			if (xmlhttp.readyState == 4 &&
