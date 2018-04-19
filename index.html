@@ -4,11 +4,12 @@
     <head>
         <meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1">
         <title>Now with 200% more buzzwords!</title>
-		<link rel="stylesheet" type="text/css" href="assets/css/policy.css">
 		<!-- Bootstrap core CSS -->
 		<link href="assets/css/bootstrap.min.css" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="assets/css/policy.css">
+		<link rel="stylesheet" type="text/css" href="assets/css/rainbow.css">
         <style>
 			html, body {height: 95%;}
         </style>
@@ -22,69 +23,63 @@
 			<source src="audio/ogg/spin.ogg" type="audio/ogg" loop=true>
 			Get a browser that has HTML 5!
 		</audio>
-		<!--
-		<img src='https://www.cmu.edu/qolt/Events/images/Heinz_College.jpg' id=policyimage />
-		-->
-		<!--
-		<img src='http://www.heinz.cmu.edu/~rtelang/rahul_res_files/image002.jpg' id=policyimage style="width: auto; height: 0%"/>
-		-->
 		<img src='assets/img/maximum_over_business.gif' id=policyimage />
 		<div class='container buzzwords'>
 			<p id="generatedword"></p>
 		</div>
 		<div class='footer'>
 			<div class='container'>
-				<table>
-					<tr>
-						<td>
-							<a class='btn btn-xs btn-link' href='about.html'>Brandon Wolfe</a>
-						</td>
-						<td>
-							<button class="btn btn-xs btn-link" data-toggle="modal"
-							data-target="#whymodal">Why did you make this?
-							</button>
-							<div class="modal fade" id="whymodal" tabindex="-1" role="dialog"
+				<div class='row'>
+					<div class="col-xl">
+						<a class='btn btn-xs btn-link' href='about.html'>Brandon Wolfe</a>
+						<button type="button" class="btn btn-xs btn-link" data-toggle="modal"
+						data-target="#whymodal">
+							Why did you make this?
+						</button>
+						<div class="modal fade" id="whymodal" tabindex="-1" role="dialog"
 							aria-hidden="true" aria-labelledby="whymodallabel">
-								<div class="modal-dialog">
-									<div class="modal-content">
-										<div class='modal-header'>
-											<button type='button' class='close' data-dismiss='modal'>
-												<span aria-hidden='true'>&times;</span>
-												<span class'sr-only'>Close</span>
-											</button>
-											<h4 class='modal-title' id='whymodallabel'>Why?</h4>
-										</div>
-										<div class='modal-body'>
-											<p>This generator was made primarily in reaction to non-technical
-											 students trying to compare technical problems to real-world events.
-											 Most of these comments were made with little to no regard for the 
-											 severity of some of these real catastrophes, and it seemed that 
-											 these students were sometimes even doing this in an attempt to 
-											 imply they had more technical knowledge than they really did.</p>
-											 <p>These remarks were often made casually as well, like the 
-											 events were no big deal. "I think that the Target 
-											 breach is a good indicator of the possibility of a cyber 9/11." 
-											 "Well, I have a feeling that we'll see a cyber Pearl Harbor in 
-											 the next couple of years." Even the class slides weren't spared 
-											 from these buzzwords, the word "cyberhurricane" was arguably 
-											 invented by these slides. Ironically, if you attempted to use 
-											 "cyberhurricane" as part of an answer in your homework, you 
-											 would have points taken off.</p>
-											 <p>Overall, this generator isn't something that is directed at a 
-											 particular student, professor, or class. And even in the group 
-											 of students that often made these remarks there are some 
-											 who recognized the sheer ridiculousness of such statements and 
-											 avoided behaving likewise.</p>
-											 <p>Buzzwords don't help anyone. With this particular case, they 
-											 only add hyperbole to a situation that is far from dire. They 
-											 serve no practical purpose other than to draw attention.</p>
-										</div>
+							<div class="modal-dialog">
+								<div class="modal-content">
+									<div class='modal-header'>
+										<button type='button' class='close' data-dismiss='modal'>
+											<span aria-hidden='true'>&times;</span>
+											<span class'sr-only'>Close</span>
+										</button>
+										<h4 class='modal-title' id='whymodallabel'>Why?</h4>
+									</div>
+									<div class='modal-body'>
+										<p>This generator was made primarily in reaction to non-technical
+										 students trying to compare technical problems to real-world events.
+										 Most of these comments were made with little to no regard for the 
+										 severity of some of these real catastrophes, and it seemed that 
+										 these students were sometimes even doing this in an attempt to 
+										 imply they had more technical knowledge than they really did.</p>
+										 <p>These remarks were often made casually as well, like the 
+										 events were no big deal. "I think that the Target 
+										 breach is a good indicator of the possibility of a cyber 9/11." 
+										 "Well, I have a feeling that we'll see a cyber Pearl Harbor in 
+										 the next couple of years." Even the class slides weren't spared 
+										 from these buzzwords, the word "cyberhurricane" was arguably 
+										 invented by these slides. Ironically, if you attempted to use 
+										 "cyberhurricane" as part of an answer in your homework, you 
+										 would have points taken off.</p>
+										 <p>Overall, this generator isn't something that is directed at a 
+										 particular student, professor, or class. And even in the group 
+										 of students that often made these remarks there are some 
+										 who recognized the sheer ridiculousness of such statements and 
+										 avoided behaving likewise.</p>
+										 <p>Buzzwords don't help anyone. With this particular case, they 
+										 only add hyperbole to a situation that is far from dire. They 
+										 serve no practical purpose other than to draw attention.</p>
 									</div>
 								</div>
 							</div>
-						</td>
-					</tr>
-				</table>
+						</div>
+						<button type="button" class="pull-right btn btn-xs" data-toggle="buttons" id="inspire_btn" onclick="inspire()">
+							<b>Inspired?</b>
+						</button>
+					</div>
+				</div>
 			</div>
 		</div>
 		<!-- Bootstrap core JavaScript

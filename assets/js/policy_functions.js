@@ -13,7 +13,12 @@ var TEXT_ROT = 0;
 onload_f = function() {
 	document.getElementById('titlebuzz').addEventListener('mousedown', superwords_start, false);
 	document.getElementById('titlebuzz').addEventListener('mouseup', superwords_end, false);
+	document.getElementById('titlebuzz').addEventListener('touchstart', superwords_start, false);
+	document.getElementById('titlebuzz').addEventListener('touchend', superwords_end, false);
 	document.getElementById('policyimage').style.height = 0;
+
+	genwords();
+
 	var xmlhttp = new XMLHttpRequest()
 		xmlhttp.onload = function() {
 			if (xmlhttp.readyState == 4 &&
@@ -104,8 +109,8 @@ special_func = function() {
 
 	IMAGE_ROT += SPIN_RATE;
 	TEXT_ROT -= 5;
-	$("#policyimage").rotate(IMAGE_ROT);
-	$("#titlebuzz").rotate(TEXT_ROT);
+	rotate("policyimage", IMAGE_ROT);
+	rotate("titlebuzz", TEXT_ROT);
 
 	document.getElementById('spin').play();
 	getRandomColor = function() {
@@ -136,22 +141,33 @@ superwords_end = function() {
 		clearInterval(gen_int);
 	if (typeof(warn_int) != "undefined")
 		clearInterval(warn_int);
-	clearTimeout(gen_timeout);
-	clearTimeout(warn_timeout);
+	if (typeof(gen_timeout) != "undefined")
+		clearTimeout(gen_timeout);
+	if (typeof(warn_timeout) != "undefined")
+		clearTimeout(warn_timeout);
 	document.getElementById('policyimage').style.height = '0%';
-	$("#policyimage").rotate(0);
-	$("#titlebuzz").rotate(0);
+	rotate("policyimage", 0);
+	rotate("titlebuzz", 0);
 	document.getElementById('titlebuzz').innerHTML = "Build your own policy buzzwords!";
 	document.getElementById('titlebuzz').style.background = "#fff";
-	document.getElementById('generatedword').style.color = "#000"; 
+	document.getElementById('generatedword').style.color = "#000";
 	document.getElementById('spin').pause();
 	document.getElementById('spin').currentTime = 0;
 };
 
-jQuery.fn.rotate = function(degrees) {
-	$(this).css({'-webkit-transform' : 'rotate('+ degrees +'deg)',
-			'-moz-transform' : 'rotate('+ degrees +'deg)',
-			'-ms-transform' : 'rotate('+ degrees +'deg)',
-			'transform' : 'rotate('+ degrees +'deg)'});
-	 return $(this);
+inspire = function() {
+	var classes = document.getElementById("inspire_btn").classList;
+	if (classes.contains("rainbow-wrapper")) {
+		document.getElementById("inspire_btn").classList.remove("rainbow-wrapper");
+		document.getElementById('policyimage').src = "assets/img/maximum_over_business.gif"
+	}
+	else {
+		document.getElementById("inspire_btn").classList.add("rainbow-wrapper")
+		document.getElementById('policyimage').src = "assets/img/inspired.png"
+	}
+}
+
+rotate = function(id, degrees) {
+	document.getElementById(id).style.transform = 'rotate('+degrees+'deg)'
 };
+
