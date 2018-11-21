@@ -99,3 +99,4 @@ wizard
 Axis of Evil
 trebuchet
 synergy
+garbage picking
